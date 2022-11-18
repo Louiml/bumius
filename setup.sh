@@ -16,6 +16,7 @@ echo "Setup \"monday.com CLI\""
 sleep 0.4
 echo "Setup \"whatsapp.com CLI\""
 sleep 0.4
+mkdir build
 cd build
 g++ ../src/main.cpp -o bumius
 g++ ../src/include/plug.hpp -o plug.o
